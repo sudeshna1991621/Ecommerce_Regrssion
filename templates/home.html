@@ -1,3 +1,17 @@
 <h1>
-    Hello World
+    <form action="{{url_for('predict')}}" method="post">
+        <label for="Session Length">Avg. Session Length</label><br>
+        <input type="text" name="Session Length" placeholder="Session Length" required="required"><br><br>
+
+        <label for="Time on App">Time on App</label><br>
+        <input type="text" name="Time on App"  placeholder="Time on App" required="required"><br><br>
+
+        <label for="Time on Website">Time on Website</label><br>
+        <input type="text" name="Time on Website" placeholder="Time on Website" required="required"><br><br>
+
+        <label for="Length of Membership">Length of Membership</label><br>
+        <input type="text" name="Length of Membership" placeholder="Length of Membership" required="required"><br><br>
+        <input type="submit" value="Submit">
+      </form>
 </h1>
+{{prediction_text}}
