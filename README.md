@@ -1,4 +1,4 @@
-# Ecommerce_Regrssion
+# Ecommerce_Regression
 # Software and Tools Requirements
 1. [Github Account](https://github.com)
 2. [HerokuAccount](https://heroku.com)
